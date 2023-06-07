@@ -2,9 +2,10 @@ import { Application, Router } from "https://deno.land/x/oak@v11.1.0/mod.ts";
 import { oakCors } from "https://deno.land/x/cors@v1.2.2/mod.ts";
 import data from "./data.json" assert { type: "json" };
 import statistics from './statistics.json' assert { type: "json" };
-import agentList from './agentlist.json' assert { type: "json" };
+import agentList from './agentList.json' assert { type: "json" };
 import lineLanguage from './lineLanguage.json' assert { type: "json" };
 import centerBranch from './centerBranch.json' assert { type : "json"};
+import abandonList from './abandonList.json' assert { type : "json"}
 
 const router = new Router();
 router
@@ -23,8 +24,11 @@ router
   .get("/12/line-language", (context) => {
     context.response.body = lineLanguage
   })
-  .get("/center/branch", (context) => {
+  .get("/line/branch", (context) => {
     context.response.body = centerBranch
+  })
+  .get('/12/abandon/list', (context) => {
+    context.response.body = abandonList
   })
   .get("/api/:dinosaur", (context) => {
     if (context?.params?.dinosaur) {
