@@ -9,7 +9,7 @@ import centerBranch from './centerBranch.json' assert { type : "json"};
 const router = new Router();
 router
   .get("/", (context) => {
-    context.response.body = "Welcome to dinosaur API!";
+    context.response.body = "Fake API for Dashboard";
   })
   .get("/api", (context) => {
     context.response.body = data;
