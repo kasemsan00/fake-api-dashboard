@@ -3,14 +3,12 @@
   "message": "",
   "data": {
     "summary": {
-      "incoming": 0,
-      "answer": 0,
-      "abandon": 0,
-      "sla": 0,
-      "percent_sla": 100,
-      "avg_service": 0,
-      "longest_service": 0,
-      "outgoing": 0
+      "incoming": 12,
+      "answer": 5,
+      "abandon": 7,
+      "voice_mail": 10,
+      "avg_service": 50,
+      "longest_service": 200
     },
     "detail": {
       "labels": [
