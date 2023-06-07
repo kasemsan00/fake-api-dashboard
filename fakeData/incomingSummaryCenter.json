@@ -1,0 +1,8 @@
+{
+  "status": "OK",
+  "data": {
+    "voiceMail": 80,
+    "answerCall": 20,
+    "abandonCall": 10
+  }
+}
