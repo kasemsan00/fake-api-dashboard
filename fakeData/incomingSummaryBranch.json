@@ -1,8 +1,8 @@
 {
   "status": "OK",
   "data": {
-    "transferCenter": 80,
-    "answerCall": 20,
-    "abandonCall": 10
+    "transferCenter": 40,
+    "answerCall": 10,
+    "abandonCall": 5
   }
 }
