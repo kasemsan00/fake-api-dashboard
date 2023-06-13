@@ -3,81 +3,107 @@
   "data": [
     {
       "id": 1,
-      "language": "สคร. เขต 1 เชียงใหม่",
+      "language": "สคร. เขต 1",
       "incomingCalls": 11,
-      "answerCalls": 11
+      "answerCalls": 11,
+      "abandonCalls": 1,
+      "transferCalls": 1
     },
     {
       "id": 2,
-      "language": "สคร. เขต 3 นครสวรรค์",
+      "language": "สคร. เขต 3",
       "incomingCalls": 9,
-      "answerCalls": 9
+      "answerCalls": 9,
+      "abandonCalls": 2,
+      "transferCalls": 1
     },
     {
       "id": 3,
-      "language": "สคร. เขต 5 ราชบุรี",
+      "language": "สคร. เขต 5",
       "incomingCalls": 8,
-      "answerCalls": 8
+      "answerCalls": 8,
+      "abandonCalls": 10,
+      "transferCalls": 1
     },
     {
       "id": 4,
-      "language": "สคร. เขต 11 นครศรีธรรมราช",
+      "language": "สคร. เขต 11",
       "incomingCalls": 7,
-      "answerCalls": 7
+      "answerCalls": 7,
+      "abandonCalls": 1,
+      "transferCalls": 10
     },
     {
       "id": 5,
-      "language": "สคร. เขต 2 พิษณุโลก",
+      "language": "สคร. เขต 2",
       "incomingCalls": 3,
-      "answerCalls": 3
+      "answerCalls": 3,
+      "abandonCalls": 2,
+      "transferCalls": 20
     },
     {
       "id": 6,
-      "language": "สคร. เขต 7 ขอนแก่น",
+      "language": "สคร. เขต 7",
       "incomingCalls": 1,
-      "answerCalls": 1
+      "answerCalls": 1,
+      "abandonCalls": 0,
+      "transferCalls": 1
     },
     {
       "id": 7,
-      "language": "สคร. เขต 9 นครราชสีมา",
+      "language": "สคร. เขต 9",
       "incomingCalls": 1,
-      "answerCalls": 1
+      "answerCalls": 1,
+      "abandonCalls": 0,
+      "transferCalls": 0
     },
     {
       "id": 8,
-      "language": "สคร. เขต 8 อุดรธานี",
+      "language": "สคร. เขต 8",
       "incomingCalls": 7,
-      "answerCalls": 7
+      "answerCalls": 7,
+      "abandonCalls": 10,
+      "transferCalls": 1
     },
     {
       "id": 9,
       "language": "สคร. เขตเมือง",
       "incomingCalls": 3,
-      "answerCalls": 3
+      "answerCalls": 3,
+      "abandonCalls": 2,
+      "transferCalls": 1
     },
     {
       "id": 10,
-      "language": "สคร. เขต 4 สระบุรี",
+      "language": "สคร. เขต 4",
       "incomingCalls": 1,
-      "answerCalls": 1
+      "answerCalls": 1,
+      "abandonCalls": 1,
+      "transferCalls": 9
     },
     {
       "id": 11,
-      "language": "สคร. เขต 6 ชลบุรี",
+      "language": "สคร. เขต 6",
       "incomingCalls": 1,
-      "answerCalls": 1
+      "answerCalls": 1,
+      "abandonCalls": 1,
+      "transferCalls": 1
     },
     {
       "id": 12,
-      "language": "สคร. เขต 10 อุบลราชธานี",
-      "incomingCalls": 1,
-      "answerCalls": 1
+      "language": "สคร. เขต 10",
+      "incomingCalls": 5,
+      "answerCalls": 1,
+      "abandonCalls": 0,
+      "transferCalls": 1
     },
     {
       "id": 13,
-      "language": "สคร. เขต 12 สงขลา",
+      "language": "สคร. เขต 12",
       "incomingCalls": 1,
-      "answerCalls": 1
+      "answerCalls": 1,
+      "abandonCalls": 0,
+      "transferCalls": 1
     }
   ]
 }
